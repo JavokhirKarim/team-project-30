@@ -62,7 +62,6 @@ header {
 footer {
   height: 402px;
   background-color: #0b0706;
-  margin-top: 67px;
 }
 li {
   list-style: none;
@@ -136,4 +135,127 @@ ul {
 .input {
   display: flex;
   margin-top: 32px;
+}
+.hero {
+  background: url(../img/BGImage.png);
+  height: 735px;
+  background-size: cover;
+  margin-top: 67px;
+}
+.hero-content {
+  padding-top: 128px;
+}
+.p-1 {
+  color: #fff;
+  font-size: 64px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 48px;
+}
+.btn1 {
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+
+  height: 51px;
+  width: 148px;
+  color: var(--primary-text, #1d2130);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.hero-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.btn2 {
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+  border: 0;
+  height: 51px;
+  width: 148px;
+  color: var(--primary-text, #ffffff);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.btn2 img {
+  vertical-align: center;
+  padding-left: 16px;
+}
+.line {
+  height: 1px;
+  background-color: #ffffff;
+  width: 861px;
+}
+.p2,
+.p3 {
+  color: #fff;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.hero-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 192px;
+}
+.about-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 158px;
+}
+.about-left img {
+  padding-top: 5px;
+}
+.text {
+  padding-left: 24px;
+}
+.p4 {
+  color: var(--primary-text, #1d2130);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.p5 {
+  color: var(--primary-text, #1d2130);
+  font-size: 48px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 120%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.p6 {
+  color: var(--secondary-text, #525560);
+
+  /* Paragraph */
+  font-size: 16px;
+  font-family: Roboto;
+  line-height: 160%;
+}
+.btn3 {
+  border-radius: 4px;
+  background: var(--green-primary, #70c174);
+  backdrop-filter: blur(40px);
+  width: 146px;
+  height: 51px;
+  margin-top: 48px;
+  margin-bottom: 126.3px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
 }
