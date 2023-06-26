@@ -29,6 +29,7 @@ header {
   top: 0;
   background: rgba(255, 255, 255, 1);
   backdrop-filter: blur(15px);
+  z-index: 99;
   /* box-shadow: 10px 20px 20px -15px #efefef; */
 }
 .nav-links {
@@ -121,7 +122,6 @@ ul {
 .footer-btn {
   border-radius: 4px;
   background: #fff;
-  backdrop-filter: blur(40px);
   height: 64px;
   width: 136px;
   border-top-left-radius: 0;
@@ -156,7 +156,6 @@ ul {
 .btn1 {
   border-radius: 4px;
   background: #fff;
-  backdrop-filter: blur(40px);
 
   height: 51px;
   width: 148px;
@@ -172,7 +171,6 @@ ul {
 }
 .btn2 {
   background-color: transparent;
-  backdrop-filter: blur(40px);
   border: 0;
   height: 51px;
   width: 148px;
@@ -248,7 +246,6 @@ ul {
 .btn3 {
   border-radius: 4px;
   background: var(--green-primary, #70c174);
-  backdrop-filter: blur(40px);
   width: 146px;
   height: 51px;
   margin-top: 48px;
@@ -431,7 +428,6 @@ ul {
   margin-left: 48px;
   border-radius: 4px;
   background: #fff;
-  backdrop-filter: blur(40px);
   color: var(--primary-text, #1d2130);
   font-size: 16px;
   font-family: Roboto;
