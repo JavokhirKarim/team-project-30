@@ -400,7 +400,6 @@ header {
   align-items: center;
 }
 
-
 .news-items h3 {
   display: flex;
   width: 290px;
@@ -510,13 +509,10 @@ line-height: 150%;
   width: 200px;
 }
 
-
-
-
 /* /////////events end///////// */
 
 
-/* //////FOOTER///////  */
+/* //////FOOTER start///////  */
 
 footer {
   height: 402px;
@@ -595,4 +591,259 @@ ul {
 .input {
   display: flex;
   margin-top: 32px;
+}
+
+
+/* //////FOOTER end///////  */
+
+/* ////////////media 1440px/////// */
+
+@media (max-width: 976px) {
+  .container {
+    width: 976px;
+  }
+
+/* //////////home start///////// */
+  section:first-child {
+    width: 1300px;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 120px;
+  }
+
+  .sub_left-content {
+    padding: 3px 0px 3px 0px;
+    display: none;
+  }
+
+  .left-content {
+    gap: 23px;
+    height: 243px;
+  }
+
+  .left-content p:first-child {
+    text-align: center;
+  }
+
+  .left-content h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-content p:last-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* //////////home end///////// */
+
+  /* //////// environment start //////// */
+
+  section:nth-child(2) {
+    width: 1300px;
+    background: var(--green-tertiary, #EFF7F2);
+  }
+
+  .environment-section {
+    padding-top: 52px;
+    background-color: transparent;
+  }
+
+  .environment-info {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .environment-info h2 {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  .environment-content {
+    grid-template-columns: 68px 400px 68px 400px;
+    grid-template-rows: 158px 158px 158px;
+  }
+
+  .environment-items:nth-child(odd) {
+    justify-self: end;
+  }
+
+  .environment-items:nth-child(even) {
+    justify-self: center;
+  }
+
+  /* ///////// environment end ///////// */
+
+  /* /////////   project start   ///////// */
+
+  section:nth-child(3) {
+    width: 1300px;
+  }
+
+  .project-info {
+    justify-content: center;
+  }
+
+  .project-content {
+    justify-content: center;
+  }
+
+  .project-item h4 {
+    padding: 17px 41px 16px 48px;
+  }
+
+  .project-item p {
+    font-size: 18px;
+    padding: 0px 25px 27px 25px;
+  }
+
+  .project-item button {
+    margin: 0px 93px 48px 48px;
+  }
+
+  .project-item:first-child {
+    width: 279px;
+    border-radius: 9px;
+  }
+
+  .project-item:nth-child(2) {
+    width: 279px;
+    border-radius: 9px;
+  }
+
+  .project-item:last-child {
+    width: 279px;
+    border-radius: 9px;
+  }
+
+  /* /////////    project end    ///////// */
+
+  /* ///////// greener start ///////// */
+
+  section:nth-child(4) {
+    background-image: url(../img/page2-greener1.png);
+    background-repeat: no-repeat;
+    width: 1290px;
+    margin-left: 10px;
+  }
+
+  .greener-content {
+    background-image: none;
+    width: 933px;
+  }
+
+  /* ///////// greener end ///////// */
+
+  /* ///////// news start ///////// */
+
+  section:nth-child(5) {
+    width: 1300px;
+  }
+
+  .new-right-content img {
+    width: 645px;
+  }
+
+  .news-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 52px;
+  }
+
+  .news-items {
+    justify-self: center;
+  }
+
+  /* /////////  news end  ///////// */
+
+  /* ///////// events start ///////// */
+
+  section:nth-child(6) {
+    width: 1300px;
+  }
+
+  .events-info {
+    padding-bottom: 83px;
+  }
+
+  .events-right-info img {
+    width: 697px;
+  }
+
+  .events-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .events-items {
+    width: 705px;
+  }
+
+  .events-item1 {
+    padding: 36px 40px 53px 12px;
+  }
+
+  /* /////////  events end  ///////// */
+
+  /* ///////// footer start ///////// */
+
+  footer {
+    width: 1300px;
+    height: 480px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 89px;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .footer-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 119px;
+    border-bottom: 1px solid #999;
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer-right p br {
+    display: none;
+  }
+
+  /* /////////  footer end  ///////// */
+
+
+
+
 }
